@@ -11,7 +11,7 @@ Following options are available:
 You can manually specify the schema when reading data:
 
 ```scala
-import org.apache.spark.sql.types.{StructType, StructField, StringType, IntegerType}
+import org.apache.spark.sql.types.{StructType, StructField, StringType, IntegerType, BooleanType}
 
 val mySchema = StructType(Array(
     StructField("age", IntegerType, true),
