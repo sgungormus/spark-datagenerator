@@ -13,7 +13,7 @@ You can manually specify the schema when reading data:
 ```scala
 import org.apache.spark.sql.types.{StructType, StructField, StringType, IntegerType}
 
-val customSchema = StructType(Array(
+val mySchema = StructType(Array(
     StructField("age", IntegerType, true),
     StructField("name", StringType, true),
     StructField("city", StringType, true),
