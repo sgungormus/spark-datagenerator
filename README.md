@@ -25,6 +25,7 @@ val df = spark.read
     .option("records", "500")
     .schema(mySchema)
     .load()
+    .persist()
     
 df.show()
 df.count()
