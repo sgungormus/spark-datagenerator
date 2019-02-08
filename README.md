@@ -11,7 +11,7 @@ Following options are available:
 You can manually specify the schema when reading data:
 
 ```sh
->spark-shell --jars spark-data-generator_2.11-0.1.jar
+$SPARK_HOME/bin/spark-shell --jars spark-data-generator_2.11-0.1.jar
 ```
 
 
